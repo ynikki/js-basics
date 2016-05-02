@@ -22,9 +22,17 @@ var canDrive = person.age>=16;
  * and it should print "Hello, my name is {name}"
  */
 
+function greet(name){
+	return "Hello, my name is " + person.name;
+}
+
+console.log(greet);
+
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
+
+dataTypes = ["",{},[],'',(5<0),null,undefined,0];
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
