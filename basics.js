@@ -38,4 +38,8 @@ dataTypes = ["",{},(5<0),null,undefined,0];
  * It should also have a name attribute with the value of 'Spot'
  */
 
+var dog = {
+	name: 'Spot',
+	speaks: 'Woof'
+};
 
