@@ -39,7 +39,11 @@ dataTypes = ["",{},(5<0),null,undefined,0];
  */
 
 var dog = {
-	name: 'Spot',
-	speaks: 'Woof'
+	name:'Spot',
+	bark:function(){
+		console.log(this.name);
+	}
 };
+
+
 
